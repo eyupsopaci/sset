@@ -1,5 +1,7 @@
 # sset
 Spring slider models for Earthquake Triggering simulations.
+Necessary libs:
+  numpy, numba, pandas, obspy(optionally)
 The equation of motion can be eithersingle-degree-of-freedom or three sliders to account frictional heterogeneity and visous flow.
 The euation of motion is solved either with full inertial efects or quasi-dynamic approximation with a damping term.
 The strength is assumed to be rate-and-state friction with 4 state evolution formulas:
@@ -10,5 +12,7 @@ The strength is assumed to be rate-and-state friction with 4 state evolution for
 Triggering signals (static + transient) are applied to the system and the respose to the triggering can be observed. 
 The static triggering signal is a heaviside function that permanently change the stress.
 Transient triggering signal is a temporarily oscillations.
+
+
 
 
