@@ -1,5 +1,5 @@
 # sset
-Spring slider models for earthquake triggering simulations.
+Spring slider models for Earthquake Triggering simulations.
 The equation of motion can be eithersingle-degree-of-freedom or three sliders to account frictional heterogeneity and visous flow.
 The euation of motion is solved either with full inertial efects or quasi-dynamic approximation with a damping term.
 The strength is assumed to be rate-and-state friction with 4 state evolution formulas:
